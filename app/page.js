@@ -1,10 +1,10 @@
 import Image from "next/image";
+import { Post } from "./components/Post";
 
 export default function Home() {
   return (
     <main>
-        <h1>My name is TTC</h1>
-        <p>My major is Software Engineer</p>
+       <Post/>
     </main>
   );
 }
